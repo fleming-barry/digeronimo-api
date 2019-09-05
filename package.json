@@ -1,0 +1,25 @@
+{
+  "name": "tradedatabaseproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jellyseagull@dev.azure.com/jellyseagull/TradeDatabaseProject/_git/TradeDatabaseProject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mssql": "^5.1.0",
+    "query-string": "^6.8.2",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
